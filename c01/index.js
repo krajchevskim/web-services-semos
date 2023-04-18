@@ -60,4 +60,4 @@ console.log(mnozenje(6, 8))
 // Homework 
 // 1. Ternary nested operations
 
-//mail na vangel: h.vangel22@gmail.com
+//mail na vangel: h.vangel22@gmail.com 

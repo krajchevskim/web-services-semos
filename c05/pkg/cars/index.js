@@ -17,7 +17,7 @@ const removeCar = async (index) => {
   try {
     const data = await readData(DATA_SOURCE);
     const out = data.filter((_, carIndex) => carIndex !== index);
-    await writeData(out, DATA_SOURCE, typeof out);
+    await writeData(out, DATA_SOURCE);
   } catch (err) {
     throw err;
   }

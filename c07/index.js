@@ -62,8 +62,3 @@ api.listen(config.get('development').port, (err) => {
     err ? console.log(err) : console.log(`Server started on ${config.get('development').port}`);
 });
 
-// homework from 4/19/2023
-// 1. forgot password - try to implement it with mailgun
-// 2. test out reset password
-// 3. read about express-jwt lib
-// 4. test out all the routes and if there are errors try to debug them
